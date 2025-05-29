@@ -23,8 +23,9 @@
 ![Desktop](https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Desktop/PrintDesktopResultado.png?raw=true)
 
 ## Mobile
+#### Dimensão base: Samsung Galaxy A51/71
 
-- Pagina inicial do Sistema de Alunos, aonde é possivel registrar todos os alunos de uma determinada escola:
+- Pagina inicial do Sistema de Alunos no smartphone, aonde é possivel registrar todos os alunos de uma determinada escola, ao rolar a pagina horizontalmente revala o restante da tabela de alunos:
 
 ![Desktop](https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobile.png?raw=true)
 ![Desktop](https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobile2.png?raw=true)
@@ -41,7 +42,7 @@
 
 ![Desktop]( https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobileExcluir.png?raw=true )
 
-- Apos todas as atualizações na lista de alunos, o resultado é o seguinte:
+- Apos todas as atualizações na lista de alunos rolamos a pagina horizontalmente revala o restante da tabela de alunos atualizada:
 
 ![Desktop]( https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobileResultado.png?raw=true )
 ![Desktop]( https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobileResultado2.png?raw=true )
