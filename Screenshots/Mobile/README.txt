@@ -1,0 +1,1 @@
+Dimensão base: Samsung Galaxy A51/71
