@@ -11,15 +11,16 @@ $resultado = $mysqli->query("SELECT * FROM alunos");
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Gerenciamento de Alunos</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Alunos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body class="bg-light">
 
   <div class="container mt-5">
-    <div class="d-flex justify-content-between align-items-center mb-4">
+    <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center gap-3 mb-4">
       <h2 class="text-primary">📚 Sistema de Alunos</h2>
       <a href="cadastrar.php" class="btn btn-success">
         <i class="bi bi-plus-lg"></i> Novo Aluno
@@ -31,27 +32,27 @@ $resultado = $mysqli->query("SELECT * FROM alunos");
         <h5 class="mb-0">Lista de Alunos</h5>
       </div>
       <div class="card-body p-0">
-        <div class="table-responsive">
-          <table class="table table-striped table-hover mb-0">
-            <thead class="table-light">
-              <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Matrícula</th>
-                <th>Curso</th>
-                <th>Ações</th>
-              </tr>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover mb-0 align-middle">
+            <thead class="table-ligth">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Email</th>
+                    <th>Matrícula</th>
+                    <th>Curso</th>
+                    <th>Ações</th>
+                </tr>
             </thead>
             <tbody>
               <?php while ($aluno = $resultado->fetch_assoc()): ?>
-              <tr>
+                <tr>
                 <td><?= $aluno['id'] ?></td>
                 <td><?= htmlspecialchars($aluno['nome']) ?></td>
                 <td><?= htmlspecialchars($aluno['email']) ?></td>
                 <td><?= htmlspecialchars($aluno['matricula']) ?></td>
                 <td><?= htmlspecialchars($aluno['curso']) ?></td>
-                <td>
+                    <td>
                   <a href="editar.php?id=<?= $aluno['id'] ?>" class="btn btn-warning btn-sm">
                     <i class="bi bi-pencil"></i> Editar
                   </a>
@@ -76,13 +77,13 @@ $resultado = $mysqli->query("SELECT * FROM alunos");
                       </div>
                     </div>
                   </div>
-                </td>
-              </tr>
-              <?php endwhile; ?>
+                    </td>
+                </tr>
+                <?php endwhile; ?>
             </tbody>
-          </table>
-        </div>
-      </div>
+        </table>
+    </div>
+</div>
     </div>
   </div>
 

@@ -15,3 +15,4 @@ $mysqli->query("DELETE FROM alunos WHERE id = $id");
 
 header("Location: index.php");
 exit;
+?>
