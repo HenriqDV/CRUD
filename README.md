@@ -27,7 +27,6 @@
 - Pagina inicial do Sistema de Alunos, aonde é possivel registrar todos os alunos de uma determinada escola:
 
 ![Desktop](https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobile.png?raw=true)
-
 ![Desktop](https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobile2.png?raw=true)
 
 - Quando clicamos em "Editar", podemos atualizar as informações dos alunos:
@@ -45,5 +44,4 @@
 - Apos todas as atualizações na lista de alunos, o resultado é o seguinte:
 
 ![Desktop]( https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobileResultado.png?raw=true )
-
 ![Desktop]( https://github.com/HenriqDV/CRUD/blob/main/Screenshots/Mobile/PrintMobileResultado2.png?raw=true )
